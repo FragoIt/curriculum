@@ -17,9 +17,9 @@ export default function HeroSection() {
 					</div>
 				</div>
 				<h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 sm:mb-4">Santiago Fragozo Sepúlveda</h1>
-				<p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8">Software developer</p>
+				<p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8">Desarrollador de Software</p>
 				<p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
-We create high-quality web experiences that transform website visitors into leads, generating appointments, inquiries, and sales. We focus on developing memorable digital solutions for complex problems.				</p>
+Especializado en crear experiencias web de alta calidad que transforman visitantes en leads, generando citas, consultas y ventas. Me enfoco en desarrollar soluciones digitales memorables para problemas complejos.				</p>
 			</div>
 		</section>
 	);

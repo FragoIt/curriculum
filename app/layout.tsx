@@ -15,29 +15,29 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: 'Santiago Fragozo - Developer',
 	description:
-		'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
+		'¡Bienvenido a mi portafolio! Soy un desarrollador apasionado que cree en la simplicidad y la efectividad. Me enfoco en crear soluciones directas que resuelvan problemas reales, con código limpio y experiencias de usuario intuitivas.',
 	keywords: [
-		'Software Developer',
-		'Web Developer',
-		'Clean Code',
-		'Simple Design',
+		'Desarrollador de Software',
+		'Desarrollador Web',
+		'Código Limpio',
+		'Diseño Simple',
 		'JavaScript',
 		'TypeScript',
 		'React',
 		'Next.js',
-		'User Experience',
-		'Problem Solving',
-		'Effective Solutions',
-		'Web Development',
-		'Frontend Development',
-		'Backend Development',
-		'[Your Name]',
+		'Experiencia de Usuario',
+		'Resolución de Problemas',
+		'Soluciones Efectivas',
+		'Desarrollo Web',
+		'Desarrollo Frontend',
+		'Desarrollo Backend',
+		'Santiago Fragozo',
 	],
 	authors: [{ name: 'Santiago Fragozo' }],
 	creator: 'Santiago Fragozo',
 	openGraph: {
 		title: 'Santiago Fragozo - Developer Portfolio',
-		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
+		description: 'Desarrollador apasionado creando soluciones simples y efectivas. Explora mis proyectos y enfoque de desarrollo.',
 		url: 'https://your-domain.com',
 		siteName: 'Santiago Fragozo - Portfolio',
 		images: [
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 	twitter: {
 		card: 'summary_large_image',
 		title: '[Your Name] - Developer',
-		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
+		description: 'Desarrollador apasionado creando soluciones simples y efectivas. Explora mis proyectos y enfoque de desarrollo.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},
@@ -77,7 +77,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="es">
 			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
 		</html>
 	);
